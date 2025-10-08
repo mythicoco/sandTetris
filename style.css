@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+.all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.board {
+    width: 85vh;
+    height: 85vh;
+    border: 4px solid black;
+    display: grid;
+}
+.cube {
+    aspect-ratio: 1;
+}
+.idk {
+    font-size: 3px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 2px 4px;
+}
+.idk:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
