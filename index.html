@@ -9,7 +9,17 @@
 <body>
     <div class="all">
         <div class="board"></div>
-        <button class="idk" onclick="handleClick()">click me<br>for sand to fall down</button>
+        <div class="allButtons">
+            <button class="idk" onclick="handleClick()">click me<br>to turn on physics</button>
+            <div class="under">
+                <button onclick="setElementAs(1)" style="border-top-left-radius: 8px" class="element e1">sand</button>
+                <button onclick="setElementAs(2)" style="border-top-right-radius: 8px" class="element e2">water</button>
+            </div>
+            <div class="under2">
+                <button onclick="setElementAs(3)" style="border-bottom-left-radius: 8px;" class="element e3">steal</button>
+                <button onclick="setElementAs(0)" style="border-bottom-right-radius: 8px;" class="element e0">air</button>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

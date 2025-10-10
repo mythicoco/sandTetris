@@ -26,14 +26,39 @@ body {
     aspect-ratio: 1;
 }
 .idk {
-    font-size: 3px;
-    border: 0.5px solid rgba(0, 0, 0, 0.2);
-    border-radius: 2px;
-    margin-left: 10px;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     background-color: white;
-    padding: 2px 4px;
+    padding: 4px 8px;
+    cursor: pointer;
 }
 .idk:hover {
     background-color: rgba(0, 0, 0, 0.1);
+}
+.under {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.element {
+    font-size: 20px;
+    width: 50%;
+    width: 100%;
+    padding: 3px 6px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.allButtons {
+    display: grid;
+    margin-left: 15px;
+}
+.element:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.under2 {
+    display: flex;
 }
